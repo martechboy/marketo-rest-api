@@ -1,10 +1,10 @@
 {
-    "name": "dchesterton/marketo-rest-api",
+    "name": "martechboy/marketo-rest-api",
     "description": "A PHP client for the Marketo.com REST API",
     "license": "MIT",
     "require": {
         "php": ">=5.3.3",
-        "guzzle/guzzle": "~3.8",
+        "guzzlehttp/guzzle": "~6.3",
         "commerceguys/guzzle-oauth2-plugin": "~1.0"
     },
     "autoload": {
@@ -14,7 +14,7 @@
     },
     "authors": [
         {
-            "name": "Daniel Chesterton"
+            "name": "MarTech Boy"
         }
     ]
 }
