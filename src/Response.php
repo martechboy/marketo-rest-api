@@ -58,6 +58,14 @@ class Response implements ResponseClassInterface
     }
 
     /**
+     * @return string
+     */
+    public function getMoreResult()
+    {
+        return isset($this->data['moreResult'])? $this->data['moreResult']: null;
+    }
+
+    /**
      * @return bool
      */
     public function isSuccess()
