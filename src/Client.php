@@ -1153,6 +1153,10 @@ class Client extends GuzzleClient
 
         return $cmd->getResult();
     }
+    private function getActivityTypes($command, $args, $fixArgs = false, $returnRaw = false)
+    {
+        return $this->getResult('getActivityTypes', false, false, $returnRaw);
+    }
     /**
      * Retrieves a list of API users and a count of each error type they have encountered in the current day
      *
