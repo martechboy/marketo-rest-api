@@ -283,8 +283,7 @@
             "httpMethod": "GET",
             "uri": "activities/types.json",
             "parameters": {},
-            "responseModel": "baseResponse",
-            "responseClass": "CSD\\Marketo\\Response"
+            "responseModel": "baseResponse"
         },
         "getLeadActivity": {
             "httpMethod": "GET",
